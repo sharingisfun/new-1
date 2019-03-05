@@ -215,9 +215,7 @@ var process_html = function(body, type, url, callback) {
 
   // console.log('going to write:', $.html())
   var html_content = $.html()
-  fs.writeFileSync('./pages/' + url.replace(/\//g, '_'), html_content, function(err, res) {
-    // console.log('wrote file', each_content)
-  })
+  fs.writeFileSync('./pages/' + url.replace(/\//g, '_'), html_content)
 
   if (callback) callback()
 
