@@ -1,0 +1,41 @@
+{
+  "name": "kayanbu-updater",
+  "version": "1.0.0",
+  "description": "Tools for keeping kayanbu updated daily",
+  "main": "index.js",
+  "dependencies": {
+    "bittorrent-dht": "^7.5.3",
+    "bittorrent-tracker": "^9.2.2",
+    "cheerio": "^0.22.0",
+    "colors": "^1.1.2",
+    "del": "^2.2.2",
+    "ipify": "^2.0.0",
+    "parse-torrent": "^5.8.3",
+    "peer-wire-swarm": "^0.12.1",
+    "public-ip": "^2.3.3",
+    "request": "^2.81.0",
+    "simple-git": "^1.73.0",
+    "torrent-discovery": "^8.3.1",
+    "transliterator": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therobinhood/kayanbu-updater.git"
+  },
+  "keywords": [
+    "torrent",
+    "updater",
+    "magnets",
+    "magnet"
+  ],
+  "author": "therobinhood <robin@kayanbu.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therobinhood/kayanbu-updater/issues"
+  },
+  "homepage": "https://github.com/therobinhood/kayanbu-updater#readme"
+}
