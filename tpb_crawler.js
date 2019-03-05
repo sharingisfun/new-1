@@ -23,8 +23,8 @@ var mkdir = function(dir) {
 
 var push_to_github = function() {
       simpleGit('.')
-        .addConfig('user.name', 'Robin')
-        .addConfig('user.email', 'therobinhood@users.noreply.github.com')
+        //.addConfig('user.name', 'Robin')
+        //.addConfig('user.email', 'therobinhood@users.noreply.github.com')
         .outputHandler(function(command, stdout, stderr) {
           stdout.pipe(process.stdout);
           stderr.pipe(process.stderr);
